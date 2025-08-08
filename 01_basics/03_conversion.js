@@ -15,5 +15,19 @@ let ValueInNum = Number(score);
 
 let num = 33;
 let strNum = String(num);
-console.log(strNum);
-console.log(typeof strNum);
+// console.log(strNum);
+// console.log(typeof strNum);
+
+// =============== Operation ==================
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue);
+
+let str1 = "Hello";
+let str2 = " World";
+let str3 = str1 + str2;
+// console.log(str3);
+let gameCounter = 100;
+++gameCounter;
+console.log(gameCounter);
